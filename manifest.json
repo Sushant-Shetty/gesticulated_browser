@@ -2,6 +2,9 @@
     "manifest_version": 3,
     "name": "Gesticulated Browser",
     "description": "Extension to navigate web browser using gestures",
+    "browser_action":{
+     "default_popup": "popup.html"
+    },
     "background": {
         "page": "background.html"
 
