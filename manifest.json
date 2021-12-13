@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Gesticulated Browser",
+    "description": "Extension to navigate web browser using gestures",
+    "background": {
+        "page": "background.html"
+
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "unlimitedStorage"
+       ]
+}
