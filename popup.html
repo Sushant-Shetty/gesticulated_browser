@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Gesticulated browser</title>
+    <style>
+      body {
+        width: 250px;
+      }
+  </style>
+  </head>
+  <body>
+    <div>
+      <video autoplay="true" id="webcamVideo" width="227" height ="227"></video>
+    </div>
+    <div id="traintext"></div>
+    <button type="button" id="train">Create scrolling gestures</button>
+    <div>
+      <input type="checkbox" id="infer">
+      <label for="infer">Enable scrolling by gesture</label>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
